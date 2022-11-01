@@ -228,27 +228,18 @@ html{
 
 /* COMIENZO DE LA SECCION SERVICIOS */
 #servicios{
-    /* background: linear-gradient(#eb5a5acc, rgba(33,16,16, .8)),  url("../img/fondo.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3; */
-    padding: 100px 15px;
-    text-align: center;
-    background-color: #ededed; 
+    background-color: #f3f3f3;
 }
 
 #servicios .titulo__section{
     font-size: 22px;
     text-transform: uppercase;
-    color: #000;
+    color: #111135;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
-    margin-bottom: 80px;
+    text-decoration-thickness: 5px ;
 }
 
 #servicios .fila{
@@ -267,15 +258,15 @@ html{
     transition: .5s;
 }
 
-#servicios .fila .servicio:hover{
-    box-shadow: 5px 5px 10px #8a8a8a;
+#servicios .fila .servicio:hover {
+    box-shadow: 5px 5px 10px #565656, -5px -5px  10px #8a8a8a;
 }
+
 
 #servicios .fila .servicio h4{
     font-size: 22px;
     margin-bottom: 25px;
 }
-
 #servicios .fila .servicio .icono{
     display: inline-block;
     width: 60px;
@@ -283,28 +274,31 @@ html{
     border-radius: 50%;
     background-color: #d3d3d3;
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom:25px ;
 }
-
+#servicios .fila .servicio .icono i{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
 #servicios .fila .servicio hr{
     width: 30%;
     margin: auto;
     color: #000;
     margin-bottom: 25px;
 }
+#servicios .fila .servicio .logo{
+    max-width: 1100px;
+}
 
-#servicios .fila .servicio ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+#servicios .fila .servicio .logo img{
+    width: 500px;
+    max-width: 180px;
 }
 
 
-#servicios .fila .servicio p{
-    font-size: 14px;
-    line-height: 22px;
-}
 /* FIN DE LA SECCION SERVICIOS */
 
 /*//////////////////////////////////////////////*/ 
